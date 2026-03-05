@@ -1,34 +1,31 @@
-<!DOCTYPE html>
-<html>
+<! DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Latihan 2.6 - Image Map</title>
+    <meta charset="UTF-8">
+    <title>Latihan_2_6</title>
+    <link rel="icon" type="ing/png" href="gambar/logo.png" sizes="16x16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='css/main.css'>
 </head>
 <body>
 
-<div id="content">
+    <div id="header">
+        <h1>Judul/Header Website</h1>
+    </div>
 
-    <h1>Ujicoba Image Map</h1>
+    <div> 
+        <div id="content">
+            <img src="./image/Foto 2_6.jpeg"  width="400" alt="Workplace" usemap="#petagambar">
+        <map name="petagambar">
+        <area shape="rect" coords="34, 44,270, 350" alt="Computer" href="https://en.wikipedia.org/wiki/Computer">
+        <area shape="rect" coords="290,172, 333, 250" alt="Phone" href="https://en.wikipedia.org/wiki/Telephone">
+        <area shape="circle" coords="337, 300,44" alt="Coffee" href="https://en.wikipedia.org/wiki/Coffee">
+        </map>
+        </div>
+    </div>    
 
-    <img src="./image/Peta.webp" width="600" alt="Workplace" usemap="#petagambar">
-
-    <map name="petagambar">
-        <area shape="rect" coords="34,44,270,350"
-              alt="Computer"
-              href="https://en.wikipedia.org/wiki/Computer">
-
-        <area shape="rect" coords="290,172,333,250"
-              alt="Phone"
-              href="https://en.wikipedia.org/wiki/Telephone">
-
-        <area shape="circle" coords="337,300,44"
-              alt="Coffee"
-              href="https://en.wikipedia.org/wiki/Coffee">
-    </map>
-
-    <h2>Kesimpulan</h2>
-    <p> Image map ini dapat digunakan untuk mengklik beberapa area pada satu gambar dan akan dialihkan ke halaman berbeda </p>
-
-</div>
-
+    <div id="footer">
+        <hr>
+        <p><i>copyright@MFerdinand Adreas Saputra_253307027_2026</i></p>
+    </div>
 </body>
-</html>
